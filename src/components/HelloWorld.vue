@@ -9,16 +9,14 @@
           height="200"
         />
       </v-col>
-  
-      <v-col class="mb-5" cols="5">
-        
-      </v-col>
+
+      <v-col class="mb-5" cols="5"> </v-col>
 
       <v-col class="mb-5" cols="2">
         <h2 class="headline font-weight-bold mb-3">Iniciar Sesion</h2>
 
         <v-row justify="center">
-         <v-text-field
+          <v-text-field
             v-model="user.name"
             required
             outlined
@@ -27,7 +25,7 @@
           ></v-text-field>
         </v-row>
         <v-row justify="center">
-         <v-text-field
+          <v-text-field
             v-model="user.password"
             :append-icon="show1 ? 'mdi-eye' : 'mdi-eye-off'"
             :type="show1 ? 'text' : 'password'"
@@ -38,7 +36,7 @@
           ></v-text-field>
         </v-row>
         <v-row justify="center">
-            <v-btn
+          <v-btn
             color="success"
             class="mr-4"
             @click="$router.push('studentTable'), validate"
@@ -48,9 +46,7 @@
         </v-row>
       </v-col>
 
-      <v-col class="mb-5" cols="5">
-        
-      </v-col> 
+      <v-col class="mb-5" cols="5"> </v-col>
     </v-row>
   </v-container>
 </template>
@@ -60,13 +56,11 @@ export default {
   name: "HelloWorld",
 
   data: () => ({
-    user:{},
+    user: {},
     show1: false,
   }),
   methods: {
-      validate () {
-        
-      },
-    },
+    validate() {},
+  },
 };
 </script>

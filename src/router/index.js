@@ -1,17 +1,17 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import addStudent from "../views/AddStudent.vue"
-import addTeacher from "../views/addTeacher.vue"
-import addSubject from "../views/addSubject.vue"
-import addCordinator from "../views/addCordinator.vue"
-import enrollStudent from "../views/enrollStudent.vue"
-import enrollTeacher from "../views/enrollTeacher.vue"
-import enrollSubject from "../views/enrollSubject.vue"
-import studentTable from "../views/studentTable.vue"
-import teacherTable from "../views/TeacherTable.vue"
-import cordinatorTable from "../views/cordinatorTable.vue"
-import subjectTable from "../views/subjectTable.vue"
+import addStudent from "../views/AddStudent.vue";
+import addTeacher from "../views/addTeacher.vue";
+import addSubject from "../views/addSubject.vue";
+import addCordinator from "../views/addCordinator.vue";
+import enrollStudent from "../views/enrollStudent.vue";
+import enrollTeacher from "../views/enrollTeacher.vue";
+import enrollSubject from "../views/enrollSubject.vue";
+import studentTable from "../views/studentTable.vue";
+import teacherTable from "../views/TeacherTable.vue";
+import cordinatorTable from "../views/cordinatorTable.vue";
+import subjectTable from "../views/subjectTable.vue";
 
 Vue.use(VueRouter);
 
