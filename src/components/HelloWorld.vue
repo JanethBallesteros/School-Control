@@ -41,7 +41,7 @@
             <v-btn
             color="success"
             class="mr-4"
-            @click="$router.push('about'), validate"
+            @click="$router.push('studentTable'), validate"
           >
             Iniciar
           </v-btn>
