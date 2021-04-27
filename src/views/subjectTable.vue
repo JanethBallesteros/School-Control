@@ -150,21 +150,21 @@ export default {
     initialize() {
       this.subjects = [
         {
-          name: "Jose Perez",
+          name: "Calculo",
           period: 15,
           credits: 6.0,
           phone: 244324556753,
           key: "JFUDFREHUG",
         },
         {
-          name: "Gerardo Sanchez",
+          name: "Lectura",
           period: 23,
           credits: 9.0,
           phone: 372435365765,
           key: "DVFDVFDDF",
         },
         {
-          name: "Janeth Ballesteros",
+          name: "Fisica",
           period: 26,
           credits: 16.0,
           phone: 2346789432,
@@ -172,7 +172,7 @@ export default {
           key: "DFVFDBFGNJNH",
         },
         {
-          name: "Jose Jimenez",
+          name: "Analitica",
           period: 30,
           credits: 3.7,
           phone: 67234567980,
@@ -180,7 +180,7 @@ export default {
           key: "HGNHGNTY",
         },
         {
-          name: "Pedro Rosales",
+          name: "Algebra",
           period: 35,
           credits: 16.0,
           phone: 493243242432,
@@ -188,21 +188,21 @@ export default {
           key: "DBDHGBGD",
         },
         {
-          name: "Karla Colacion",
+          name: "Estadistica",
           period: 37,
           credits: 0.0,
           phone: 9467890543,
           key: "HTJTYJN",
         },
         {
-          name: "Carlos Olivas",
+          name: "Calculo II",
           period: 39,
           credits: 0.2,
           phone: 9876890345,
           key: "DFGDFGFDG",
         },
         {
-          name: "Silvia Estrada",
+          name: "Informatica",
           period: 40,
           credits: 3.2,
           phone: 8712354785,
